@@ -10,11 +10,11 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious"
 letter_count = big_word.size
-puts "There are #{letter_count}letters in #{big_word}"
+puts "There are #{letter_count} letters in #{big_word}"
 
 bigger_word = big_word + "wow" + "mom"
 new_letter_count = bigger_word.size
-puts "There are now #{new_letter_count}letters in #{bigger_word}"
+puts "There are now #{new_letter_count} letters in #{bigger_word}"
 
 proper_sentence = "i really like programming.".capitalize
 puts proper_sentence
